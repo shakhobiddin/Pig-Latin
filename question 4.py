@@ -2,7 +2,7 @@ pig = 'ay'
 
 sentence= input("Enter a word:")
 if len(sentence) > 0 and sentence.isalpha():
-    a = sentence.lower()
+    word = sentence.lower()
     a = word[0]
     if a == ('a' or 'e' or 'i' or 'o' or 'u'):
         new_word = word + pig
