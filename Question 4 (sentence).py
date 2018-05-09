@@ -7,13 +7,13 @@ words = words.split(' ')
 
 #Now words is a list, so I can take each one using a loop
 
+k=""
 for i in words:
-    if len(i) >=0 : 
-
-        i = i + "%say" % (i[0])
+    if len(i) >=0 :
+        i = i + "%say" % (i[0].lower())
         i = i[1:]
-
-        print (i)
+        k+=str(i)+" "
 
     else:
         print ("empty")
+print(k)
