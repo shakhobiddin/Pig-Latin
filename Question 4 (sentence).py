@@ -1,5 +1,5 @@
 #Take the users input
-words = input("Enter some text to translate to pig latin: ")
+words = input("Enter your sentence to translate to pig latin: ")
 print ("You entered: ", words)
 
 #Now I need to break apart the words into a list
